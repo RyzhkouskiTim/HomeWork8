@@ -1,9 +1,12 @@
+import java.util.Arrays;
+
 public class ArrayUtils {
     public static void main(String[] args) {
-        int[] array1 = new int[]{1, 5, 9};
+        int[] array1 = new int[]{1, 2, 3, 4, 5};
         int element1 = 8;
-        int x = getNumberOfElement(array1, element1);
-        System.out.println(x);
+        int leftExcludeBound1 = 1, rightIncludeBound = 3;
+        int[] subArray = getSubArray(array1, leftExcludeBound1, rightIncludeBound);
+        System.out.println(Arrays.toString(subArray));
     }
 
     public static double getAverage(int[] array) {
@@ -27,7 +30,7 @@ public class ArrayUtils {
         }
     }
 
-    public static int getNumberOfElement(int[] array, int element) {
+    public static int getIndexOfElement(int[] array, int element) {
         for (int i = 0; i < array.length; i++) {
             if (array[i] == element) {
                 return i;
@@ -36,5 +39,19 @@ public class ArrayUtils {
         return -1;
     }
 
+    public static int[] getSubArray(int[] array, int leftExcludeBound, int rightIncludeBound) {
+        if (leftExcludeBound < 0 || rightIncludeBound > array.length) {
+            throw new IllegalArgumentException();
+        }
 
+        int boundArray[] = new int[rightIncludeBound - leftExcludeBound];
+        int j = 0;
+
+        for (int i = leftExcludeBound; i < rightIncludeBound; i++) {
+            boundArray[j] = array[i];
+            j++;
+        }
+
+        return boundArray;
+    }
 }

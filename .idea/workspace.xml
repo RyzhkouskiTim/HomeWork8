@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ea66b65-4878-4286-94fc-d6572798bcdf" name="Changes" comment="Task1">
-      <change afterPath="$PROJECT_DIR$/src/ArrayUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DateTimeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DateTimeUtils.java" afterDir="false" />
+    <list default="true" id="0ea66b65-4878-4286-94fc-d6572798bcdf" name="Changes" comment="New Tasks">
+      <change beforePath="$PROJECT_DIR$/src/ArrayUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArrayUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675258822655</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New Tasks">
+      <created>1675431616913</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675431616913</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -102,7 +107,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Task1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Task1" />
+    <MESSAGE value="New Tasks" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Tasks" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
